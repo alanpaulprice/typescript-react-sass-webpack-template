@@ -33,9 +33,13 @@ module.exports = {
         ]
     },
     "plugins": [
-        new HtmlWebpackPlugin(),
         new PrettierPlugin(),
         new CleanWebpackPlugin(),
+        new HtmlWebpackPlugin(
+            {
+                template: "src/index.html"
+            }
+        ),
         new MiniCssExtractPlugin(
             {
                 filename: "[name]-[contenthash:8].css"
