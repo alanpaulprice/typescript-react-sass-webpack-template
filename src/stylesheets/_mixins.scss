@@ -1,0 +1,41 @@
+@mixin absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// ========== MEDIA QUERIES
+
+@mixin media($breakpoint) {
+    @if $breakpoint == sm {
+        @media screen and (min-width: 30rem) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == md {
+        @media screen and (min-width: 40rem) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == lg {
+        @media screen and (min-width: 60em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == xl {
+        @media screen and (min-width: 80em) {
+            @content;
+        }
+    }
+
+    // hover
+    @if $breakpoint == hov {
+        @media screen and (hover: hover) {
+            @content;
+        }
+    }
+}

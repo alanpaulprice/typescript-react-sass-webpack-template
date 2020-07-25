@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: $color-mono-10;
+    color: $color-mono-100;
+    box-sizing: border-box;
+}
+
+body,
+input,
+select,
+textarea,
+button {
+    font-family: $font-lato-regular, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hidden {
+    visibility: hidden;
+}

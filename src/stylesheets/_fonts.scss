@@ -1,0 +1,92 @@
+$font-lato-hairline: 'lato-harline';
+$font-lato-harline-italic: 'lato-harline_italic';
+$font-lato-light: 'lato-light';
+$font-lato-light-italic: 'lato-light_italic';
+$font-lato-regular: 'lato-regular';
+$font-lato-italic: 'lato-italic';
+$font-lato-bold: 'lato-bold';
+$font-lato-bold-italic: 'lato-bold_italic';
+$font-lato-black: 'lato-black';
+$font-lato-black-italic: 'lato-black_italic';
+
+$fonts-path: '../assets/fonts/';
+
+@font-face {
+    font-family: 'lato-hairline';
+    src: url($fonts-path+'lato-thin-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-hairline_italic';
+    src: url($fonts-path+'lato-thinitalic-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-light';
+    src: url($fonts-path+'lato-light-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-light_italic';
+    src: url($fonts-path+'lato-lightitalic-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-regular';
+    src: url($fonts-path+'lato-regular-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-italic';
+    src: url($fonts-path+'lato-italic-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-bold';
+    src: url($fonts-path+'lato-bold-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-bold_italic';
+    src: url($fonts-path+'lato-bolditalic-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-black';
+    src: url($fonts-path+'lato-black-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-black_italic';
+    src: url($fonts-path+'lato-blackitalic-webfont.woff2') format('woff2'),
+        url($fonts-path+'lato-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
