@@ -10,6 +10,9 @@ module.exports = {
         "path": __dirname + '/dist',
         "filename": "js/[name].[chunkhash:8].bundle.js"
     },
+    resolve: {
+        extensions: ['*', '.js', '.jsx', '.tsx', '.ts'],
+    },
     "module": {
         "rules": [
             {
